@@ -16,8 +16,6 @@ Outputs: Key values to expose, such as the VPC ID, subnet IDs, route table IDs, 
 |  ├──── vpc-main.tf
 │  ├──── README.md
 
-
-
 # Key Points
 Reusability: This module can be reused with different configurations by simply changing the input variables.
 Simplicity: The module abstracts the complexity of creating a VPC with subnets, making it easy to manage and deploy.
