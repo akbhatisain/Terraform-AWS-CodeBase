@@ -57,7 +57,8 @@ module "s3_bucket" {
 
 ### Contributing
 
-We welcome contributions from the community! Whether it's a bug fix, a new feature, or improved documentation, your input is valuable.
+We welcome contributions from the community! Whether it's a bug fix, a new feature, or improved documentation.
+Your input is valuable.
 
 ### Contribution Guidelines
 
