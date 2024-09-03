@@ -56,9 +56,11 @@ module "s3_bucket" {
 
 
 ### Contributing
+
 We welcome contributions from the community! Whether it's a bug fix, a new feature, or improved documentation, your input is valuable.
 
 ### Contribution Guidelines
+
 Fork the repository.
 Create a new branch: git checkout -b feature-name.
 Make your changes and commit them: git commit -m 'Add new feature'.
@@ -66,11 +68,13 @@ Push to the branch: git push origin feature-name.
 Submit a pull request.
 
 ### Submitting Changes
+
 Ensure your code adheres to the project’s coding standards.
 Write tests to cover new functionality.
 Ensure existing tests pass by running terraform validate and terraform plan.
 Open a pull request with a detailed description of your changes.
 
 ### Acknowledgments
+
 Special thanks to all the contributors who have helped make this project what it is today. We also acknowledge the inspiration from other Terraform modules and open-source projects.
 
