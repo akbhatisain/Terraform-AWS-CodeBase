@@ -32,5 +32,6 @@ Before you begin, ensure you have met the following requirements:
 
 Clone the repository to your local machine:
 
-$ git clone https://github.com/yourusername/terraform-aws-blueprints.git
-$ cd terraform-aws-blueprints
+$ git clone https://github.com/akbhatisain/Terraform-AWS-CodeBase.git
+
+$ cd Terraform-AWS-CodeBase
