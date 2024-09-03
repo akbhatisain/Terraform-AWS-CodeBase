@@ -33,5 +33,44 @@ Before you begin, ensure you have met the following requirements:
 Clone the repository to your local machine:
 
 $ git clone https://github.com/akbhatisain/Terraform-AWS-CodeBase.git
-
 $ cd Terraform-AWS-CodeBase
+
+### Advanced Usage
+Integrating Multiple Modules
+To deploy a more complex infrastructure, you can integrate multiple modules as follows:
+
+module "vpc" {
+  source = "./modules/vpc"
+  ...
+}
+
+module "ec2_instance" {
+  source = "./modules/ec2"
+  ...
+}
+
+module "s3_bucket" {
+  source = "./modules/s3"
+  ...
+}
+
+
+### Contributing
+We welcome contributions from the community! Whether it's a bug fix, a new feature, or improved documentation, your input is valuable.
+
+### Contribution Guidelines
+Fork the repository.
+Create a new branch: git checkout -b feature-name.
+Make your changes and commit them: git commit -m 'Add new feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
+
+### Submitting Changes
+Ensure your code adheres to the project’s coding standards.
+Write tests to cover new functionality.
+Ensure existing tests pass by running terraform validate and terraform plan.
+Open a pull request with a detailed description of your changes.
+
+### Acknowledgments
+Special thanks to all the contributors who have helped make this project what it is today. We also acknowledge the inspiration from other Terraform modules and open-source projects.
+
