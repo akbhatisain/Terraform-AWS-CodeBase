@@ -2,7 +2,9 @@
 ![Terraform AWS Blueprints Banner](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*O57cF_ZEQsQIFM7Y.jpg)
 
 # Terraform-AWS-CodeBase
-Comprehensive Terraform modules for AWS services. This repository provides easy-to-use, flexible, and configurable modules to deploy various AWS resources, including VPCs, EC2 instances, S3 buckets, and more. Perfect for anyone looking to automate AWS infrastructure with Terraform. Contributions and modifications are welcome!
+Comprehensive Terraform modules for AWS services. This repository provides easy-to-use, flexible, and configurable modules to deploy various AWS resources, including VPCs, EC2 instances, S3 buckets, and more. Perfect for anyone looking to automate AWS infrastructure with Terraform. 
+
+# Contributions and modifications are welcome!
 
 
 
